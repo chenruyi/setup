@@ -54,6 +54,8 @@ Updated: July 8, 2020
 ### libs
 
 -   [boost](https://www.boost.org/) (1.71.0)
+    -   change CPLUS_INCLUDE_PATH to you python path, `./zzboost.sh` line 28 to you python include
+    -   using `find /usr/include -name pyconfig.h` for show(learn from:[pyconfig.h not found](https://stackoverflow.com/questions/19810940/ubuntu-linking-boost-python-fatal-error-pyconfig-cannot-be-found)
     -   install script: [`./zzboost.sh`](zzboost.sh)
     -   post install: `export BOOST_ROOT=$ZZROOT`
 -   [gmp](https://gmplib.org/) (6.1.2)
